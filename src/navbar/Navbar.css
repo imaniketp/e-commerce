@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 2rem;
+}
+
+.navbar-brand {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1px;
+}
+.collapse{
+    display: flex;
+    margin-left: 5rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.collapse1 a{
+    text-decoration: none;
+    color: #737373;
+}
+.collapse1{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.collapse2{
+    display: flex;
+    flex-direction: row;
+    color: #23A6F0;
+    gap: 1rem;
+}
